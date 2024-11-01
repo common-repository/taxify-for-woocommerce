@@ -1,0 +1,945 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Taxify for WooCommerce\n"
+"POT-Creation-Date: 2018-03-26 01:24-0700\n"
+"PO-Revision-Date: 2018-03-26 01:25-0700\n"
+"Last-Translator: Todd Lahman <support@toddlahman.com>\n"
+"Language-Team: Todd Lahman <support@toddlahman.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/wc-taxify-admin-messages.php:45
+#, php-format
+msgid "%sWooCommerce%s version 3.2 or greater is required for best results."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:59
+#, php-format
+msgid ""
+"%sTaxify is inactive.%s The %sWooCommerce%s plugin must be active for Taxify "
+"to work. Please activate WooCommerce on the %splugin page%s once it is "
+"installed."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:72
+#, php-format
+msgid ""
+"%sTaxify is inactive. WooCommerce version %s %s is installed, but "
+"WooCommerce version %s is required for Taxify to work. Please %supdate%s "
+"WooCommerce to the most current version."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:85
+#, php-format
+msgid ""
+"%sTaxify is inactive.%s Taxify requires the PHP SoapClient. Please ask your "
+"web host to install PHP SOAP."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:98
+#, php-format
+msgid ""
+"%sThe Taxify API Key has not been activated.%s Please %senter%s your Taxify "
+"API Key to start using Taxify."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:111
+#, php-format
+msgid ""
+"%sPrices Entered With Tax%s is set to %sYes, I will enter prices inclusive "
+"of tax%s. This will cause taxes to be calculated incorrectly by Taxify. "
+"Please go to %sTax settings%s and set the option to %sNo, I will enter "
+"prices exclusive of tax%s."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:124
+#, php-format
+msgid ""
+"%sCalculate Tax Based On%s is set to %sShop base address%s. This will cause "
+"taxes to be calculated incorrectly by Taxify. Please go to %sTax settings%s "
+"and set the option to either %sCustomer shipping address%s (most accurate), "
+"or %sCustomer billing address%s."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:145
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to query the %s API. Please add %s to %s."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:160
+#, php-format
+msgid ""
+"The %sWooCommerce%s tax settings have been automatically configured to work "
+"with %sTaxify%s."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:173
+msgid ""
+"The Zip Code format below is not correct. Either xxxxx or xxxxx-xxxx would "
+"work."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-messages.php:186
+msgid ""
+"Please enter a Zip Code for the store location where products are sold and/"
+"or shipped from."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:22
+msgid "Taxify"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:41
+#, fuzzy
+msgid "Main Settings"
+msgstr "Paramètres globaux"
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:124
+#, fuzzy
+msgid "Taxify Settings"
+msgstr "Paramètres globaux"
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:126
+#, php-format
+msgid "Taxify version: %s%sWooCommerce version %s"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:130
+msgid "Enable Taxify"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:131
+msgid "Enable Taxify tax calculations"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:140
+#, fuzzy
+msgid "Taxify API Key"
+msgstr "Clé de licence API"
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:141
+#, fuzzy, php-format
+msgid "%s"
+msgstr "%s sur %s activations restantes"
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:150
+msgid "Store Prefix"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:151
+msgid ""
+"Unique store order prefix. The prefix helps identify the store where the "
+"order originated from. This will appear in the Taxify dashboard."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:160
+msgid "Tax Exempt on Checkout"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:161
+msgid "Display the tax exempt checkbox on the checkout page."
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:169
+#, fuzzy
+msgid "Debug Logging"
+msgstr "Aucune information de débugue disponible"
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:170
+#, php-format
+msgid "Logs debug events inside <code>%s</code>. <a href=\"%s\">View Log</a>"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:178
+msgid "Delete Log"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin-settings-tab.php:183
+#, php-format
+msgid "Log file size %s"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin.php:114
+msgid "View Taxify for WooCommerce Settings"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin.php:114
+#, fuzzy
+msgid "Settings"
+msgstr "Paramètres globaux"
+
+#: includes/admin/wc-taxify-admin.php:133
+msgid "View Taxify for WooCommerce Documentation"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin.php:133
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin.php:134
+msgid "Visit Taxify for WooCommerce Support"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin.php:134
+#, fuzzy
+msgid "Support"
+msgstr "Support"
+
+#: includes/admin/wc-taxify-admin.php:135
+#, fuzzy
+msgid "Visit Todd Lahman LLC"
+msgstr "Todd Lahman LLC"
+
+#: includes/admin/wc-taxify-admin.php:135
+#, fuzzy
+msgid "Todd Lahman LLC"
+msgstr "Todd Lahman LLC"
+
+#: includes/admin/wc-taxify-admin.php:167
+#, php-format
+msgid "If you like %s please leave us a %s rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin.php:167
+msgid "Taxify for WooCommerce"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin.php:167
+msgid "Thanks :)"
+msgstr ""
+
+#: includes/admin/wc-taxify-admin.php:175
+msgid "Thank you for preparing taxes with Taxfy for WooCommerce."
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:109
+#: includes/admin/wc-taxify-product-data.php:210
+msgid "None"
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:119
+#: includes/admin/wc-taxify-product-data.php:205
+#: includes/admin/wc-taxify-product-data.php:240
+msgid "Taxify Tax Class"
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:119
+msgid "Reload the Taxify Tax Classes from Taxify"
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:121
+msgid ""
+"Taxify Tax Classes help to further define how Taxify calculates tax for this "
+"product."
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:138
+msgid ""
+"This page should automatically reload. If not, then reload the page manually."
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:141
+msgid ""
+"There was a problem contacting the Taxify API. Please try again in a few "
+"minutes."
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:182
+msgid "Taxify Tax class:"
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:185
+msgid "Same as parent"
+msgstr ""
+
+#: includes/admin/wc-taxify-product-data.php:245
+msgid "— No Change —"
+msgstr ""
+
+#: includes/api/wc-taxify-rest-api.php:74 includes/wc-taxify-checkout.php:150
+#: includes/wc-taxify-checkout.php:191 includes/wc-taxify-order.php:172
+#: includes/wc-taxify-order.php:236 includes/wc-taxify-order.php:298
+#: includes/wc-taxify-order.php:358 includes/wc-taxify-order.php:402
+#: includes/wc-taxify-order.php:423 includes/wc-taxify-order.php:447
+#: includes/wc-taxify-soap-api.php:122
+#, fuzzy, php-format
+msgid "TAXIFY ERROR: %s"
+msgstr "%s sur %s activations restantes"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:79
+msgid "Published"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:79
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:178
+#, fuzzy
+msgid "Complete"
+msgstr ""
+"Erreur d'activation. L'achat correspondant à ce produit n'est pas complet"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:117
+msgid "Hook"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:118
+#, fuzzy
+msgid "Status"
+msgstr "Statut"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:119
+msgid "Arguments"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:120
+msgid "Group"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:121
+msgid "Recurrence"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:122
+#, fuzzy
+msgid "Scheduled Date"
+msgstr "Date &amp; Heure"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:127
+msgid "Started"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:129
+msgid "Completed"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:133
+#, fuzzy
+msgid "Claim ID"
+msgstr "ID d'instance invalide"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:134
+msgid "Log"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:195
+msgid "Non-repeating"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:201
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:210
+#, php-format
+msgid " (%s ago)"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:242
+msgid "Process the action now as if it were run as part of a queue"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:242
+#, fuzzy
+msgid "Run"
+msgstr ""
+"La version minimale de WordPress requise pour faire fonctionner le logiciel."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:320
+#, php-format
+msgid ""
+"Maximum simulatenous batches already in progress (%s queues). No actions "
+"will be processed until the current batches are complete."
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:329
+#, php-format
+msgid "Successfully executed the action: %s"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:333
+#, php-format
+msgid "Could not execute the action: %s"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:355
+#, php-format
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:356
+#, php-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:357
+#, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:358
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:359
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:360
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:361
+#, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:365
+msgid "Now!"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:452
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:455
+#, fuzzy
+msgid "Action updated."
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:453
+#, fuzzy
+msgid "Custom field updated."
+msgstr "Dernière mise à jour du logiciel"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:454
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:456
+#, php-format
+msgid "Action restored to revision from %s"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:457
+#, fuzzy
+msgid "Action scheduled."
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:458
+#, fuzzy
+msgid "Action saved."
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:459
+#, fuzzy
+msgid "Action submitted."
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:460
+#, php-format
+msgid "Action scheduled for: <strong>%1$s</strong>"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:460
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:461
+#, fuzzy
+msgid "Action draft updated."
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_QueueRunner.php:133
+msgid "Every minute"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:191
+#, fuzzy
+msgid "action created"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:195
+#, fuzzy
+msgid "action canceled"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:199
+#, fuzzy
+msgid "action started"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:203
+#, fuzzy
+msgid "action complete"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:207
+#, fuzzy, php-format
+msgid "action failed: %s"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:211
+#, php-format
+msgid "action timed out after %s seconds"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:216
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %s in %s on line %s"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:221
+#, fuzzy
+msgid "action reset"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:23
+#, php-format
+msgid "Error saving action: %s"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:42
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:51
+msgid "Invalid schedule. Cannot save action."
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:67
+#, fuzzy
+msgid "Unable to save action."
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:317
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:326
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:352
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:487
+#, fuzzy, php-format
+msgid "Unidentified action %s"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:408
+msgid "Unable to claim actions. Database error."
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:438
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:454
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:465
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+msgctxt "post"
+msgid "Failed"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostStatusRegistrar.php:37
+#, php-format
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostStatusRegistrar.php:50
+msgctxt "post"
+msgid "In-Progress"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+#, php-format
+msgid "In-Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+msgid "Scheduled Actions"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+#, fuzzy
+msgid "Scheduled Action"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+#, fuzzy
+msgid "Add"
+msgstr "Clés de licence Software Add-On"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+#, fuzzy
+msgid "Edit Scheduled Action"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+#, fuzzy
+msgid "New Scheduled Action"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+#, fuzzy
+msgid "View Action"
+msgstr "Action"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr ""
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+#, fuzzy
+msgid "No actions found"
+msgstr "Fichier introuvable"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+#, fuzzy
+msgid "No actions found in trash"
+msgstr "Fichier introuvable"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+#, fuzzy
+msgid "Action Group"
+msgstr "Action"
+
+#: includes/wc-taxify-checkout.php:400
+#, fuzzy
+msgid "Tax Exempt Details"
+msgstr "Autres détails ou faits spéciaux."
+
+#: includes/wc-taxify-checkout.php:405
+msgid "Tax Exempt? (U.S. Only)"
+msgstr ""
+
+#: includes/wc-taxify-order-admin.php:59
+msgid "M j\\, Y \\a\\t h:i a"
+msgstr ""
+
+#: includes/wc-taxify-order-admin.php:61
+#, fuzzy, php-format
+msgid "%sTax Exempt? %s%s"
+msgstr "%s sur %s activations restantes"
+
+#: includes/wc-taxify-order-admin.php:62
+#, fuzzy, php-format
+msgid "%sFiled with Taxify? %s%s"
+msgstr "%s sur %s activations restantes"
+
+#: includes/wc-taxify-order-admin.php:64
+#, fuzzy, php-format
+msgid "%sFiled with Taxify on: %s%s"
+msgstr "%s sur %s activations restantes"
+
+#: includes/wc-taxify-order.php:171
+#, php-format
+msgid ""
+"TAXIFY ERROR: The API returned an error. An attempt will be made to file "
+"order# %d again one hour from now."
+msgstr ""
+
+#: includes/wc-taxify-order.php:179
+#, php-format
+msgid ""
+"TAXIFY ERROR: The connection to the API failed. An attempt will be made to "
+"file order# %d again one hour from now."
+msgstr ""
+
+#: includes/wc-taxify-order.php:364
+#, php-format
+msgid ""
+"TAXIFY ERROR: The connection to the API failed. An attempt will be made to "
+"file refund# %d for order# %d again 24 hours from now."
+msgstr ""
+
+#: includes/wc-taxify-order.php:419
+#, php-format
+msgid "TAXIFY NOTICE - Order# %d has been deleted."
+msgstr ""
+
+#: includes/wc-taxify-scheduler.php:256
+#, php-format
+msgid ""
+"TAXIFY ERROR: Attempted to schedule order# %d to be filed at Taxify, but the "
+"order no longer exists."
+msgstr ""
+
+#: includes/wc-taxify-scheduler.php:273
+#, php-format
+msgid ""
+"TAXIFY ERROR: Attempted to file order# %d at Taxify, but the order no longer "
+"exists."
+msgstr ""
+
+#: includes/wc-taxify-tax.php:55
+msgid "Tax"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:73
+msgid "US-TAX-1"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:308
+msgid "Alabama"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:309
+msgid "Alaska"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:310
+msgid "Arizona"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:311
+msgid "Arkansas"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:312
+msgid "California"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:313
+msgid "Colorado"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:314
+msgid "Connecticut"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:315
+msgid "Delaware"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:316
+msgid "District Of Columbia"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:317
+msgid "Florida"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:318
+msgid "Georgia"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:319
+msgid "Hawaii"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:320
+msgid "Idaho"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:321
+msgid "Illinois"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:322
+msgid "Indiana"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:323
+msgid "Iowa"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:324
+msgid "Kansas"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:325
+msgid "Kentucky"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:326
+msgid "Louisiana"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:327
+msgid "Maine"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:328
+msgid "Maryland"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:329
+msgid "Massachusetts"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:330
+msgid "Michigan"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:331
+msgid "Minnesota"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:332
+msgid "Mississippi"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:333
+msgid "Missouri"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:334
+msgid "Montana"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:335
+msgid "Nebraska"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:336
+msgid "Nevada"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:337
+msgid "New Hampshire"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:338
+msgid "New Jersey"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:339
+msgid "New Mexico"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:340
+msgid "New York"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:341
+msgid "North Carolina"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:342
+msgid "North Dakota"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:343
+msgid "Ohio"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:344
+msgid "Oklahoma"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:345
+msgid "Oregon"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:346
+msgid "Pennsylvania"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:347
+msgid "Rhode Island"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:348
+msgid "South Carolina"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:349
+msgid "South Dakota"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:350
+msgid "Tennessee"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:351
+msgid "Texas"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:352
+msgid "Utah"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:353
+msgid "Vermont"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:354
+msgid "Virginia"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:355
+msgid "Washington"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:356
+msgid "West Virginia"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:357
+msgid "Wisconsin"
+msgstr ""
+
+#: includes/wc-taxify-tax.php:358
+msgid "Wyoming"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Refund Remaining"
+#~ msgstr "Activations restantes à zéro"
+
+#, fuzzy
+#~ msgid "Move this action to the Trash"
+#~ msgstr "Action"
+
+#, fuzzy
+#~ msgid "Delete this action permanently"
+#~ msgstr "Action"
+
+#, fuzzy
+#~ msgid "Optional"
+#~ msgstr "Sélectionner une page&hellip; (Optionnel)"
